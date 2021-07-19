@@ -15,8 +15,12 @@ function Data() {
             { data.map(response => 
                 ( 
                 <>  
-                <p> {response.id} </p>
-                <p> { response.name } </p> 
+                <h3> <i class="fa fa-id-badge" aria-hidden="true"></i> {response.postId} </h3>
+                <h4> <i class="fa fa-id-card" aria-hidden="true"></i> {response.id} </h4>
+                <p className="data-name"> <i class="fa fa-user" aria-hidden="true"></i> {response.name} </p> 
+                <p className="data-email"> <i class="fa fa-envelope-o" aria-hidden="true"></i> {response.email} </p>
+                <p className="data-body"> <i class="fa fa-comment-o" aria-hidden="true"></i> {response.body} </p>
+                <hr />
                 </>
             )
             ) 

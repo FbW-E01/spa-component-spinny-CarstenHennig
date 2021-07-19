@@ -2,8 +2,27 @@ body,
 .App {
   height: 100vh;
   display: grid;
+  justify-content: center;
+  align-items: center;
   /* background: #000; */
 }
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.data-name {
+  font-weight: bold;
+}
+
+.data-email {
+  font-style: italic;
+}
+
+#data-body {
+  font-stretch: condensed;
+}
+
 iframe {
   margin: auto;
 }
